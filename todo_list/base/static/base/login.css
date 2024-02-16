@@ -1,0 +1,74 @@
+.login-welcome {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 0 20px 5px;
+    border-radius: 12px 12px 0 0;
+    background: orangered;
+    align-items:flex-end;
+    align-items: start;
+}
+
+.login-welcome h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.login-welcome h3 {
+    margin: 0;
+    font-weight: 300;
+}
+
+#login-form {
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#login-form p {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+#login-form input[type=text],
+input[type=password] {
+    border: none;
+    outline: 1px solid #4b5156;
+    outline-offset: -1px;
+    border-radius: 0.5em;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    color: #4b5156;
+    font-family: inherit;
+}
+
+form .button {
+    background: orangered;
+    color: #FFF;
+    border: none;
+    border-radius: 0.5em;
+    font-family: inherit;
+    font-weight: 300;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    padding: 0 10px;
+    cursor: pointer;
+    width: 60%;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
+
+#register {
+    text-align: center;
+    padding-bottom: 10px;
+}

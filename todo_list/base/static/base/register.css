@@ -1,0 +1,9 @@
+.helptext, ul {
+    font-size: 0.6rem;
+    color: orangered;
+    margin-top: 5px;
+    align-self: center;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
