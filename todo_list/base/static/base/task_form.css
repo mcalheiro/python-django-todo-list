@@ -1,44 +1,38 @@
-.login-welcome {
-    display: flex;
-    flex-direction: column;
+.top-anchors {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.17rem;
     color: #fff;
-    padding: 0 20px 5px;
-    border-radius: 12px 12px 0 0;
-    background: orangered;
-    align-items:flex-end;
-    align-items: start;
 }
 
-.login-welcome h1 {
-    margin-bottom: 0;
-    font-weight: 700;
-}
-
-.login-welcome h3 {
-    margin: 0;
-    font-weight: 300;
-}
-
-#login-form {
+#task-form {
     font-family: inherit;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
+    padding-bottom: 10px;
 }
 
-#login-form p {
+#task-form p {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
+    padding: 0 20px 0;
     justify-content: center;
+    box-sizing: border-box;
     margin-top: 12px;
     margin-bottom: 0;
 }
 
+#task-form p:last-of-type {
+    flex-direction: row;
+    justify-content: start;
+}
+
 #login-form input[type=text],
-input[type=password] {
+textarea {
     border: none;
     outline: 1px solid #4b5156;
     outline-offset: -1px;
@@ -50,7 +44,7 @@ input[type=password] {
     font-family: inherit;
 }
 
-form .button {
+#form-submit {
     background: orangered;
     color: #FFF;
     border: none;
@@ -63,12 +57,7 @@ form .button {
     box-sizing: content-box;
     padding: 0 10px;
     cursor: pointer;
-    width: 60%;
+    width: 30%;
     box-sizing: border-box;
     margin-top: 24px;
-}
-
-#register {
-    text-align: center;
-    padding-bottom: 10px;
 }

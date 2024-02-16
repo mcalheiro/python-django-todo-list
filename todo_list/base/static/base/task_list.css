@@ -32,16 +32,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
-    gap: 10px;
+    gap: 20px;
 }
 
 .search-add-wrapper form {
     justify-content: space-between;
     display: flex;
-    width: 85%;
-    gap: 10px;
+    width: 100%;
+    gap: 5px;
     align-items: center;
 }
 
@@ -57,12 +57,13 @@
     border: none;
     border-radius: 0.5em;
     font-family: inherit;
-    font-weight: 300;
+    font-weight: 500;
     height: 32px;
     align-items: center;
     justify-content: center;
     box-sizing: content-box;
-    padding: 0 10px;
+    padding: 0 20px;
+    margin-top: 0;
 }
 
 #add-link {
@@ -112,7 +113,21 @@ textarea {
     margin-left: 10px;
 }
 
-/* 
+.empty-list-message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 15px;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.empty-list-message h3 {
+    font-weight: 300;
+    margin: 5px auto;
+}
+
 .task-complete-icon {
     height: 20px;
     width: 20px;
@@ -133,39 +148,4 @@ textarea {
     color: #ff3700;
     font-size: 35px;
     line-height: 0;
-}
-
-.empty-list-message {
-    text-align: center;
-    padding-bottom: 10px;
-    line-height: 1em;
-}
-
-.handle {
-    display: inline-block;
-    padding: 20px 16px;
-    cursor: grab;
-    user-select: none;
-}
-
-.handle:after,
-.handle:before {
-    display: block;
-    content: "";
-}
-
-.handle:active,
-.handle:active:before,
-.handle:active:after {
-    cursor: grabbing;
-}
-
-.dropArea {
-    background-color: #f1f2f6;
-    color: black;
-    border: #ced6e0 1px solid;
-}
-
-.selectedTask {
-    opacity: 0.6;
 }

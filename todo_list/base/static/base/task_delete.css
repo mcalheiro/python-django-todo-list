@@ -1,0 +1,17 @@
+#deleting-task {
+    padding: 0 20px 0;
+}
+
+#deleting-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#deleting-form input {
+    margin: 0 0;
+}

@@ -1,5 +1,5 @@
 body {
-    background: #fafafa;
+    background: #F0EAD6;
     font-family: "Ubuntu", sans-serif;
     padding-top: 50px;
 }
@@ -9,11 +9,15 @@ body {
     margin: auto;
     background: #fff;
     border-radius: 12px;
-    outline: 0.5px solid orangered;
 }
 
 label {
     color: #4b5156;
     font-weight: 500;
     display: block;
+}
+
+.my-anchors {
+    text-decoration: none;
+    color: #4b5156;
 }

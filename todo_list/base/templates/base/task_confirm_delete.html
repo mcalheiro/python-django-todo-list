@@ -1,11 +1,16 @@
 {% extends 'base/main.html' %}
 {% block content %}
-
-<a href="{% url 'tasks' %}">Go back</a>
-<form method="POST">
+<div class="header-bar">
+    <div>
+        <h1>Delete task</h1>
+        <h3>Do you really wish to delete the task:</h3>
+    </div>
+    <a class="top-anchors" href="{% url 'tasks' %}">Go back</a>
+</div>
+<form id="deleting-form" method="POST">
     {% csrf_token %}
-    <p>Do you really wish to delete the task "{{task}}?"</p>
-    <input type="submit" value="Delete">
+    <p id="deleting-task">"{{task}}"</p>
+    <input id="form-submit" type="submit" value="Delete">
 </form>
 
 {% endblock content %}
